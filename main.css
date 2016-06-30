@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #250D26;
 }
 
 /* Custom default button */
@@ -33,6 +33,7 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-family: 'Helvetica', serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
