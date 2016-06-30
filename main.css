@@ -32,7 +32,6 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   
 }
@@ -79,7 +78,7 @@ body {
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: lighter;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
@@ -116,7 +115,7 @@ body {
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 
