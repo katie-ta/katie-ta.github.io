@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: black;
 }
 
 /* Custom default button */
@@ -31,7 +31,7 @@ body {
 }
 body {
   color: black;
-  text-align: center;
+  text-align: left;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   
 }
