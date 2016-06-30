@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: black;
+  color: #fff;
 }
 
 /* Custom default button */
@@ -31,7 +31,7 @@ body {
 }
 body {
   color: black;
-  text-align: left;
+  text-align: center;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   
 }
@@ -79,20 +79,19 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: lighter;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: black; /* IE8 proofing */
+  color: black;
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
+  color: black;
   border-bottom-color: #fff;
 }
 
