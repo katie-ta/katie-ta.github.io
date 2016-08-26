@@ -6,7 +6,8 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: black;
+  text-decoration: none;
 }
 
 /* Custom default button */
@@ -19,6 +20,16 @@ a:hover {
   border: 1px solid #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "macho", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
 
 /*
  * Base structure
@@ -26,13 +37,11 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  background-color: #333;
 }
 body {
   color: black;
   text-align: center;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "macho", Helvetica, Arial, sans-serif;
   
 }
 
@@ -42,8 +51,6 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -56,7 +63,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 40px;
 }
 
 
@@ -86,13 +93,13 @@ body {
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
+  font-weight: 600;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
   color: black;
-  border-bottom-color: #fff;
+  text-decoration: line-through;
 }
 
 @media (min-width: 768px) {
@@ -110,7 +117,11 @@ body {
  */
 
 .cover {
-  padding: 0 20px;
+  padding: 20px;
+  position: absolute;
+  right: 350px;
+  bottom: 120px;
+  text-align: left;
 }
 .cover .btn-lg {
   padding: 10px 20px;
